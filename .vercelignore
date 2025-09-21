@@ -1,0 +1,37 @@
+# Vercel ignore file
+# Don't ignore the app directory
+!app/
+!components/
+!lib/
+!hooks/
+!public/
+!next.config.js
+!package.json
+!package-lock.json
+!tsconfig.json
+!tailwind.config.ts
+!postcss.config.mjs
+
+# Ignore development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build artifacts
+.next/
+out/
+dist/
+
+# Ignore development tools
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore backend directory (not needed for frontend)
+backend/
